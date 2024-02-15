@@ -1,0 +1,13 @@
+[package]
+name = "sat-solver"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abdeldjalil Chougui"]
+license = "MIT"
+description = "SAT solver from scratch: DPLL and CDCL with watched literals, DIMACS I/O, Sudoku demo"
+
+[[bin]]
+name = "sat"
+path = "src/main.rs"
+
+[dependencies]
