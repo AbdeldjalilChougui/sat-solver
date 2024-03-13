@@ -1,0 +1,10 @@
+c every assignment of 3 variables is excluded by one clause
+p cnf 3 8
+1 2 3 0
+1 2 -3 0
+1 -2 3 0
+1 -2 -3 0
+-1 2 3 0
+-1 2 -3 0
+-1 -2 3 0
+-1 -2 -3 0
